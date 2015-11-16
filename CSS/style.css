@@ -1,0 +1,59 @@
+@media screen and (min-width:1000px) {
+  #container {
+    height: 700px;
+    width: 1000px;
+    margin: 0 auto;
+  }
+}
+
+h1 {
+  font-family: Viner Hand ITC;
+  font-size: 80px;
+  text-align: center;
+  color: white;
+  clear: both;
+  padding-top: 150px;
+}
+
+body {
+  margin: 0px;
+}
+
+.main {
+  background-image: url(../Images/backgroundImage.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  width: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+nav {
+  float: right;
+  margin-top: 26px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav a {
+  color: white;
+	font-size: 20px;
+	text-decoration: none;
+  margin-left: 25px;
+}
+
+span {
+  width: 100%;
+}
+
+footer {
+  position: relative;
+  bottom: -310px;
+  text-align: left;
+  color: white;
+}
