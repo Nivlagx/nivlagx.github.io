@@ -1,72 +1,24 @@
-@media screen and (min-width:1000px) {
-  #container {
-    height: auto;
-    width: auto;
-    margin: 0 auto;
-  }
-}
-
-h1 {
-  font-family: Viner Hand ITC;
-  font-size: 80px;
-  text-align: center;
-  color: white;
-  clear: both;
-  padding-top: 7%;
-}
-
 body {
-  margin: 0px;
-  background-color: grey;
+	padding-top: 50%;
 }
 
-.main {
-  background-image: url(../Images/backgroundImage.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: fixed;
-  top: 0;
-  width: 0;
-  min-width: 100%;
-  min-height: 100%;
+.jumbotron {
+	background-image: url(../Images/backgroundImage.png);
+	top: 8%;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	position: absolute;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-.header {
-  background-image: url(../Images/header.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: fixed;
-  width: 100%;
-  height: 55%;
-  
+.jumbotron .container {
+	color: white;
+	padding-top: 5%;
 }
 
-nav {
-  float: right;
-  margin-top: 6%;
-  margin-right: 16%;
-}
-
-nav ul li {
-  display: inline-block;
-}
-
-nav a {
-  color: white;
-	font-size: 20px;
-	text-decoration: none;
-  margin-left: 25px;
-}
-
-span {
-  width: 100%;
-}
-
-footer {
-  position: absolute;
-  bottom: 0;
-  text-align: left;
-  color: white;
+.panel-body {
+	text-align: center;
 }

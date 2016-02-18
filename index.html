@@ -1,37 +1,180 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html>
+<head>
+	<title>Galvin Chin</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Portfolio">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
 
-  <head>
-    <title>Galvin Chin</title>
-    <meta name"viewport" content="width=device-width, initial-scale=1">
-    <meta charset="uft-8">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="CSS/style.css">
-  </head>
+    <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-  <body>
-    <div class="main">
-      <div id="container">
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="HTML/profile.html">Profile</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav> <!-- End of nav -->
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+</head>
 
-        <span class="title">
-          <h1>Galvin Chin</h1>
-        </span> <!-- End of title -->
+<body data-spy="scroll" data-target="#my-navbar">
+	<!-- Navbar -->
+	<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+		<div class="containter">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
 
-        <footer>&#169 2015 Galvin Chin</footer>
+				<a href="" class="navbar-brand">Galvin Chin</a>
+			</div><!-- End Navbar Header -->
+			<div class="collapse navbar-collapse" id="navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="#aboutme">About Me</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div><!-- End of Collapse Navbar -->
+		</div><!-- End Container -->
+	</nav><!-- End Navbar -->
 
-      </div> <!-- End of container -->
-    </div> <!-- End of main -->
+	<!-- jumbotron -->
+	<div class="jumbotron">
+		<div class="container text-center">
+			<h1>Galvin Chin</h1>
+			<p>Welcome</p>
+		</div><!-- End Container -->
+	</div><!-- End Jumbotron -->
 
-  </body>
+	<div class="container">
+		<section>
+			<div class="page-header" id="aboutme">
+				<h2>About Me</h2>
+			</div>	
 
+			<p>My name is Galvin Chin, I am 22 years old and currently completing a Bachelor of Science degree, majoring in Computer Science at the University of Auckland.<br>
+
+			I am passionate about technology and enjoy keeping up to date with the latest gadgets and software, to the point where I would sacrifce sleep to see the Apple Keynotes and CES announcements live every year.<br>
+
+			Through my experiences in hospitality I have learnt to work efficiently and juggle multiple tasks at once, as time is valuable when you have to tend to a large number of guests and have to keep up the image of the establishment. I also take pride in all my work and am committed to completing tasks at a high level.
+			 </p>
+
+		</section>
+	</div><!-- End Container -->
+
+	<div class="container">
+		<section>
+			<div class="page-header" id="projects">
+				<h2>Projects</h2>
+			</div>
+
+			<div class="row">
+				<!-- Project IAESTE -->
+				<div class="col-lg-4">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<h4>IAESTE</h4>
+							<p>Website Content Manager</p>
+							<a href="https://iaestenewzealand.wordpress.com/">
+  							<img src="IMAGES/iaeste website.png" alt="IAESTE website" style="width: 280px; height: 250px;">
+							</a>
+						</div>
+					</div>
+				</div><!-- End Project IAESTE -->
+
+				<!-- Project Take Up -->
+				<div class="col-lg-4">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<h4>Take Up</h4>
+							<p>Android app</p>
+							<a href="http://www.alexbh.com/takeup/">
+  							<img src="IMAGES/takeup.png" alt="Takeup screenshot" align="middle" style="width: 220px; height: 250px;">
+							</a>
+						</div>
+					</div>
+				</div><!-- End Project Take Up -->
+
+				<!-- Project -->
+				<div class="col-lg-4">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<h4>COMING SOON</h4>
+						</div>
+					</div>
+				</div><!-- End Project -->
+
+			</div><!-- End Row -->	
+		</section>
+	</div><!-- End Container -->
+
+	<!-- Contact -->
+	<div class="container">
+		<section>
+			<div class="page-header" id="contact">
+				<h2>Contact Message</h2>
+			</div><!-- End Page Header -->
+
+			<div class="row">
+				<div class="col-lg-4">
+					<p>Send me a message</p>
+				</div>
+
+				<div class="col-lg-8">
+					<form action="" class="form-horizontal">
+						<div class="form-group">
+							<label for="user-name" class="col-lg-2 control-label">Name</label>
+
+							<div class="col-lg-10">
+								<input type="text" class="form-control" id="user-name" placeholder="Enter your name"></input>
+							</div>
+						</div><!-- End Form Group -->
+
+						<div class="form-group">
+							<label for="user-email" class="col-lg-2 control-label">Email</label>
+
+							<div class="col-lg-10">
+								<input type="text" class="form-control" id="user-email" placeholder="Enter your email address"></input>
+							</div>
+						</div><!-- End Form Group -->
+
+						<div class="form-group">
+							<label for="user-messsage" class="col-lg-2 control-label">Message</label>
+
+							<div class="col-lg-10">
+								<textarea name="user-message" id="user-message" class="form-control" cols="20" rows="10" placeholder="Enter your message"></textarea>
+							</div>
+						</div><!-- End Form Group -->
+
+						<div class="form-group">
+							<div class="col-lg-10 col-lg-offset-2">
+								<button type="submit" class="btn btn-primary">Submit</button>
+							</div>
+						</div>
+
+					</form>
+				</div>
+			</div><!-- End Row -->
+
+		</section>
+	</div><!-- End Contact -->
+
+	<!-- Footer -->
+	<footer>
+		<div class="container">
+			<ul class="list-inline">
+				<li><a href="#">LinkedIn</a></li>
+				<li><a href="#">Github</a></li>
+			</ul>
+
+			<p>&copy; Galvin Chin</p>
+		</div>
+	</footer><!-- End Footer -->
+
+	<script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
 </html>
