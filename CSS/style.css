@@ -23,3 +23,20 @@ body {
 .panel-body {
 	text-align: center;
 }
+
+.container .profilebody {
+	display: inline-block;
+	
+}
+
+.profilepicture {
+	display: inline-block;
+	width: 20%;
+	float: left;
+}
+
+.bio {
+	display: inline-block;
+	width: 80%;
+	float: right;
+}
