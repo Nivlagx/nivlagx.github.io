@@ -1,26 +1,3 @@
-/*
-body {
-	padding-top: 50%;
-}
-
-.jumbotron {
-	background-image: url(../Images/backgroundImage.png);
-	top: 8%;
-	right: 0;
-	left: 0;
-	bottom: 0;
-	position: absolute;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.jumbotron .container {
-	color: white;
-	padding-top: 5%;
-}
-*/
-
 .jumbotron {
     height: 100vh;
 }
@@ -31,20 +8,4 @@ body {
 
 .panel-body {
 	text-align: center;
-}
-
-.container .profilebody {
-	display: inline-block;
-}
-
-.profilepicture {
-	display: inline-block;
-	width: 20%;
-	float: left;
-}
-
-.bio {
-	display: inline-block;
-	width: 80%;
-	float: right;
 }
