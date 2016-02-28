@@ -1,5 +1,4 @@
 .jumbotron {
-    height: 100vh;
     background-color: #E5E4E2;
 }
 
@@ -16,3 +15,12 @@
 		height: 100vh;
 	}
 }
+/*
+@media (max-width: 800px) {
+	#profilepicture {
+		text-align: center;
+		height: 800px;
+		width: 1000px;
+	}
+}
+*/
