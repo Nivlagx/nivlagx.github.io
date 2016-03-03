@@ -6,8 +6,17 @@
 	padding-top: 10%;
 }
 
+.jumbotron h1 {
+	font-family: Viner Hand ITC;	
+	font-size: 80px;
+}
+
 .projects .panel-body {
 	text-align: center;
+}
+
+.align {
+	display: inline-block;
 }
 
 @media screen and (min-width: 768px) {
