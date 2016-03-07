@@ -20,6 +20,14 @@
 	width: 150px;
 }
 
+.linkedin {
+	background-color: #006699;
+}
+
+.github {
+	background-color: #462476;
+}
+
 @media screen and (min-width: 768px) {
 	.jumbotron {
 		height: 100vh;
