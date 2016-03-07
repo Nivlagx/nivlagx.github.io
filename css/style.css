@@ -7,7 +7,7 @@
 }
 
 .jumbotron h1 {
-	font-family: Viner Hand ITC;	
+	font-family: Viner Hand ITC, Georgia, serif;;	
 	font-size: 80px;
 }
 
@@ -37,10 +37,10 @@
 		height: 300px;
 	}*/
 }
-
+/*
 @media (max-width: 800px) {
 	.jumbotron h1{
-		font-family: Viner Hand ITC;
+		font-family: Georgia, serif;
 		font-size: 40px;
 	}
-}
+}*/
