@@ -37,12 +37,9 @@
 		height: 300px;
 	}*/
 }
-/*
+
 @media (max-width: 800px) {
-	#profilepicture {
-		text-align: center;
-		height: 800px;
-		width: 1000px;
+	.jumbotron h1{
+		font-size: 5px;
 	}
 }
-*/
