@@ -40,6 +40,7 @@
 
 @media (max-width: 800px) {
 	.jumbotron h1{
-		font-size: 5px;
+		font-family: Viner Hand ITC;
+		font-size: 40px;
 	}
 }
