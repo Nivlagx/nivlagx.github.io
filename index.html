@@ -10,6 +10,7 @@
 </head>
 
 <body data-spy="scroll" data-target="#my-navbar">
+
 	<!-- Navbar -->
 	<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
 		<div class="container">
@@ -38,6 +39,7 @@
 	<div class="jumbotron">
 		<div class="container text-center">
 			<h1>Galvin Chin</h1>
+			<br>
 			<p>Welcome</p>
 		</div><!-- End Container -->
 	</div><!-- End Jumbotron -->
@@ -416,25 +418,21 @@
 					<p>Send me a message</p>
 
 					<div class="container row">
-					<a href="https://nz.linkedin.com/in/galvinchin" class="linkedin btn btn-primary btn-lg" role="button">LinkedIn</a>
+						<a href="https://nz.linkedin.com/in/galvinchin" class="linkedin btn btn-primary btn-lg" role="button">LinkedIn</a>
+						
+						<a href="https://github.com/nivlagx" class="github btn btn-primary btn-lg" role="button">GitHub</a>
 					</div>
-
 					<br>
 
-					<div class="container row">
-					<a href="https://github.com/nivlagx" class="github btn btn-primary btn-lg" role="button">GitHub</a>
-					</div>
-
-					<br>
 				</div>
 
 				<div class="col-lg-8">
-					<form action="" class="form-horizontal">
+					<form action="php/form.php" class="form-horizontal">
 						<div class="form-group">
 							<label for="user-name" class="col-lg-2 control-label">Name</label>
 
 							<div class="col-lg-10">
-								<input type="text" class="form-control" id="user-name" placeholder="Enter your name"></input>
+								<input type="text" class="form-control" name="userName" placeholder="Enter your name"></input>
 							</div>
 						</div><!-- End Form Group -->
 
@@ -442,7 +440,7 @@
 							<label for="user-email" class="col-lg-2 control-label">Email</label>
 
 							<div class="col-lg-10">
-								<input type="text" class="form-control" id="user-email" placeholder="Enter your email address"></input>
+								<input type="text" class="form-control" name="userEmail" placeholder="Enter your email address"></input>
 							</div>
 						</div><!-- End Form Group -->
 
@@ -450,7 +448,7 @@
 							<label for="user-messsage" class="col-lg-2 control-label">Message</label>
 
 							<div class="col-lg-10">
-								<textarea name="user-message" id="user-message" class="form-control" cols="20" rows="10" placeholder="Enter your message"></textarea>
+								<textarea name="userMessage" class="form-control" cols="20" rows="10" placeholder="Enter your message"></textarea>
 							</div>
 						</div><!-- End Form Group -->
 
@@ -459,7 +457,6 @@
 								<button type="submit" class="btn btn-primary">Submit</button>
 							</div>
 						</div>
-
 					</form>
 				</div>
 			</div><!-- End Row -->
