@@ -4,7 +4,7 @@ $email = $_POST['userEmail'];
 $message = $_POST['userMessage'];
 
 $to = 'galvin9@hotmail.com';
-$email_subject = "Contact form submitted by:  $name";
+$email_subject = "Contact form submitted by: $name";
 $email_body = "You have received a new message. \n\n".
 				  " Here are the details:\n \nName: $name \n ".
 				  "Email: $email\n Message \n $message";
