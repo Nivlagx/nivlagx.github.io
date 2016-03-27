@@ -28,6 +28,14 @@
 	background-color: #462476;
 }
 
+span.glyphicon-menu-down {
+	font-size: 4em;
+}
+
+span.glyphicon-menu-down:hover {
+	font-size: 5em;
+}
+
 @media screen and (min-width: 768px) {
 	.jumbotron {
 		height: 100vh;
