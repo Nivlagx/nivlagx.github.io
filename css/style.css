@@ -37,10 +37,13 @@
 		height: 300px;
 	}*/
 }
-/*
+
 @media (max-width: 800px) {
-	.jumbotron h1{
-		font-family: Georgia, serif;
-		font-size: 40px;
+	.container .img-responsive {
+		margin: 0 auto;
 	}
-}*/
+
+	.container .page-header {
+		text-align: center;
+	}
+}
